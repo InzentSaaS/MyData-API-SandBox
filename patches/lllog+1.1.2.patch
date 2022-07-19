@@ -1,0 +1,40 @@
+diff --git a/node_modules/lllog/lib/handlers/console/index.js b/node_modules/lllog/lib/handlers/console/index.js
+index 1417c2c..646c2b8 100644
+--- a/node_modules/lllog/lib/handlers/console/index.js
++++ b/node_modules/lllog/lib/handlers/console/index.js
+@@ -9,9 +9,34 @@ const formatItem = logItem => {
+ };
+ 
+ const printer = (level, ...logItems) => {
+-	systemConsole.log(`[${level.toUpperCase().padEnd(5)}] ${logItems.map(logItem => formatItem(logItem)).join(', ')}`);
++	systemConsole.log(getTimeStamp() + ` [${level.toUpperCase().padEnd(5)}] ${logItems.map(logItem => formatItem(logItem)).join(', ')}`);
+ };
+ 
++function getTimeStamp() {
++	var d = new Date();
++	var s =
++		leadingZeros(d.getFullYear(), 4) + '-' +
++		leadingZeros(d.getMonth() + 1, 2) + '-' +
++		leadingZeros(d.getDate(), 2) + ' ' +
++
++		leadingZeros(d.getHours(), 2) + ':' +
++		leadingZeros(d.getMinutes(), 2) + ':' +
++		leadingZeros(d.getSeconds(), 2);
++
++	return s;
++}
++
++function leadingZeros(n, digits) {
++	var zero = '';
++	n = n.toString();
++
++	if (n.length < digits) {
++		for (var i = 0; i < digits - n.length; i++)
++			zero += '0';
++	}
++	return zero + n;
++}
++
+ module.exports = {
+ 	debug: printer.bind(null, 'debug'),
+ 	info: printer.bind(null, 'info'),
