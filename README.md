@@ -4,9 +4,9 @@ MyData API SandBox는 개발/테스트 목적으로 API Service를 가정하여 
 ![image](https://user-images.githubusercontent.com/110973169/186584764-28e3fc57-084b-404e-9926-8b71e739e01d.png)<br>
 MyData API SandBox는 개발/테스트 목적으로 API Service를 가정하여 http request에 대한response를 회신할 수 있는 Echo 서버입니다. 위 그림과 같이 금융보안원에서 마이데이터 테스트 베드 시스템 구축에 사용사례가 있으며, 아래 그림처럼 단순한 사용자의 개발/테스트 목적으로 사용이 가능합니다.
 <br>
-<div style='text-align=center'>
+<p "align=center">
 ![image](https://user-images.githubusercontent.com/110973169/186584813-282e38f9-f121-4411-8fae-ece396f9105b.png)
-<div>
+<p>
 <br>
 ### 구축 위치	사용 사례
 * On-premise :	[금융보안원] 마이데이터 테스트베드 시스템 구축 사례입니다.
