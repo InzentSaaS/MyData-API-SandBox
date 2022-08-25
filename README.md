@@ -1,14 +1,18 @@
 # API-SandBox
 MyData API SandBox는 개발/테스트 목적으로 API Service를 가정하여 http request에 대한 response를 회신할 수 있는 Echo 서버입니다. OAS(Open API Specification) 3.0 표준 준수, GET, POST, PUT 등 다양한 HTTP 매서드 제공하며 금융보안원 MyData 테스트 베드 적용이 되어있습니다.
 ## 사용 사례
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/28ab8625-6747-4a44-99e4-5cb968feaf12/Untitled.png)
+![image](https://user-images.githubusercontent.com/110973169/186584764-28e3fc57-084b-404e-9926-8b71e739e01d.png)<br>
 MyData API SandBox는 개발/테스트 목적으로 API Service를 가정하여 http request에 대한response를 회신할 수 있는 Echo 서버입니다. 위 그림과 같이 금융보안원에서 마이데이터 테스트 베드 시스템 구축에 사용사례가 있으며, 아래 그림처럼 단순한 사용자의 개발/테스트 목적으로 사용이 가능합니다.
+<br>
+![image](https://user-images.githubusercontent.com/110973169/186584813-282e38f9-f121-4411-8fae-ece396f9105b.png)
+<br>
 구축 위치	사용 사례
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7120e0d1-8ed0-4556-a385-316039a4412a/Untitled.png)
 On-premise	[금융보안원] 마이데이터 테스트베드 시스템 구축 사례입니다.
 http://www.inzent-mydata.com/board/board.php?bo_table=case&pg=2&idx=4
+
 Private Cloud	[교보생명] Hybrid Cloud기반 마이데이터 플랫폼 구축에 사용된 사례입니다.
 http://www.inzent-mydata.com/board/board.php?bo_table=case&pg=2&idx=6
+
 
 
 ## 실행명령 : node lib\open-api-mocker-cli.js -s tests\resources\apim.yml
