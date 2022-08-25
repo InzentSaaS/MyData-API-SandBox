@@ -6,11 +6,11 @@ MyData API SandBox는 개발/테스트 목적으로 API Service를 가정하여 
 <br>
 ![image](https://user-images.githubusercontent.com/110973169/186584813-282e38f9-f121-4411-8fae-ece396f9105b.png)
 <br>
-구축 위치	사용 사례
-On-premise	[금융보안원] 마이데이터 테스트베드 시스템 구축 사례입니다.
+### 구축 위치	사용 사례
+* On-premise :	[금융보안원] 마이데이터 테스트베드 시스템 구축 사례입니다.
 http://www.inzent-mydata.com/board/board.php?bo_table=case&pg=2&idx=4
 
-Private Cloud	[교보생명] Hybrid Cloud기반 마이데이터 플랫폼 구축에 사용된 사례입니다.
+* Private Cloud	: [교보생명] Hybrid Cloud기반 마이데이터 플랫폼 구축에 사용된 사례입니다.
 http://www.inzent-mydata.com/board/board.php?bo_table=case&pg=2&idx=6
 
 
