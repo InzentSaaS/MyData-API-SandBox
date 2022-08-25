@@ -1,7 +1,7 @@
 # APIM-Mocker
 
 ## 실행명령 : node lib\open-api-mocker-cli.js -s tests\resources\apim.yml
-
+* 제공되는 apim.yml의 테스트용 API 
 - Handling route GET /oauth/2.0/token
 - Handling route POST /oauth/2.0/token
 - Handling route GET /oauth/2.0/revoke
